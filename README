@@ -1,0 +1,8 @@
+This repository contains a beta version of the "gold" project for the YRDK RX63N.  This workspace initializes the board including the following:
+
+1. Clock is configured before running C initialization code.
+2. Illegal address interrupt is enabled.
+3. GPIO configured to match the YRDK's peripherals.
+4. Debug console is included in the project.
+5. Interrupts for push buttons on the board are enabled and stubs are provided for ISR's.
+
